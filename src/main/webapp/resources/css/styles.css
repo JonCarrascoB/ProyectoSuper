@@ -1,0 +1,130 @@
+/*
+* Clearflix
+************************************************************************
+*/
+
+.clearflix {
+    overflow: auto;
+}
+
+/*
+* 1. @Keyframes o animaciones
+***************************************************
+*/
+
+
+/*
+2. se da estilo a todas las etiquetas y tengan el mismo estilo, la base
+*************************************************************************
+*/
+
+p {
+    margin-bottom: 8px;
+    color: #736666;
+}
+
+
+/*
+3. clases comunes (class, id,...)
+****************************************************
+*/
+main.container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.col-md {
+    margin-bottom: 30px;
+}
+
+.precioTachado {
+    text-decoration: line-through;
+    padding-right: 20px;
+    color: #736666;
+
+}
+
+.precioNuevo {
+    color: red;
+    padding-left: 2px;
+}
+
+#producto1 {
+    width: 150px;
+    height: 150px;
+}
+
+.descuentoB {
+    position: absolute;
+}
+
+.precioBase {
+    color: #736666;
+}
+
+.productNum {
+    text-align: center;
+    color: #000;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 2.5em;
+}
+
+#buttonTop {
+    color: #003580;
+    font-size: 20px;
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    z-index: 999;
+    padding: 1px;
+    text-shadow: 3px 4px 3px #ab9797;
+}
+
+.navbar-toggler {
+    border: 1px solid #003580;
+}
+
+.navbar-nav {
+    background-color: aliceblue;
+}
+
+.login{
+    padding-right: 340px;
+}
+
+.registro{
+    padding-right: 340px;
+}
+
+/*
+4. layouts - secciones de la web (cabecera, menus, pies)
+**********************************************************
+*/
+
+
+
+
+/*
+5. media query para response Responsive Web Design
+************************************************************************
+*/
+
+/* madia para el movil de 576px, Mobile*/
+@media (max-width: 576px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .list-group {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .fixed-bottom {
+        position: relative;
+        z-index: 500;
+    }
+
+}

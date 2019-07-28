@@ -22,7 +22,7 @@ public class Producto {
 				this.id = -1;
 				this.nombre = "";
 				this.precio = 0.00F;
-				this.descuento= false;
+				this.descuento = false;
 				this.stock= 0;
 			}
 			

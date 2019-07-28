@@ -34,7 +34,7 @@
 	<base href="${pageContext.request.contextPath}/">
 	
     <!-- CSS propio -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="resources/css/styles.css">
 
     <title>IparMarket</title>
 </head>
